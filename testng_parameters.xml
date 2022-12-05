@@ -10,12 +10,12 @@
             <class name="tests.LoginTest"></class>
         </classes>
     </test>
-    <test name="Edge" >
+    <test name="Firefox" >
     	<parameter name="user" value="TestUser" />
     	<parameter name="pass" value="12345@67890" />
     	<parameter name="invalidUser" value="TestCeva" />
     	<parameter name="invalidPass" value="12345@67890" />
-    	<parameter name="browser" value="edge" />
+    	<parameter name="browser" value="firefox" />
         <classes>
             <class name="tests.LoginTest"></class>
         </classes>
